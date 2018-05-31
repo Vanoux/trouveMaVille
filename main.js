@@ -4,6 +4,6 @@ $.getJSON("http://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&app
         function (data) {
             var celsius = data.list[0].main.temp;
             var descript = data.list[0].weather.description;
-            $(".contain").html("La temperature est de : " + celsius + "°C" + "<br>" + "Le temps est : " + descript);
+            $(".contain").html("Température : " + celsius + " °C" + " Méteo : " + descript);
         });
 };
