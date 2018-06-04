@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Trouve ma Ville</title>
-  </head>
-  <body>
-  
-  <div id="view">
-      <div>
-          <button onclick="meteo()">METEO TOULOUSE</button>
-          <div id="contain1"></div>
-      </div>
-      <div>
-          <button onclick="adresse()">ADRESSE ST GAUDENS</button>
-          <div id="contain2"></div>
-      </div>
-      <div>
-          <button onclick="itineraire()">ITINERAIRE</button>
-          <div id="contain3"></div>
-      </div>
-  </div>
-   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
 
-  
-<script src="node_modules/jquery/dist/jquery.js"></script> 
-<script type="text/javascript" src="main.js"></script>
-  </body>
+<body>
+
+    <div id="view">
+        <div>
+            <button onclick="meteo()">METEO TOULOUSE</button>
+            <div id="contain1"></div>
+        </div>
+        <div>
+            <button onclick="adresse()">ADRESSE ST GAUDENS</button>
+            <div id="contain2"></div>
+        </div>
+        <div>
+            <button onclick="itineraire()">ITINERAIRE</button>
+            <div id="contain3"></div>
+        </div>
+    </div>
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
 </html>
